@@ -9,7 +9,7 @@ function Testmonials() {
     { image: user_1, Title: "Sean Parker" },
   ];
   return (
-    <div className="sm:flex justify-center sm:gap-20 min-h-[700px] mt-32 sm:p-0 p-6 gap-40 ">
+    <div className="sm:flex justify-center sm:gap-20 min-h-[550px] mt-32 sm:p-0 p-6 gap-40 ">
       {List.map((product, index) => (
         <div className="sm:w-[450px] h-[400px] sm:p-6 p-2 shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition duration-300">
           <i class="fa-solid fa-quote-right text-4xl  text-red-600 ml-44 "></i>
